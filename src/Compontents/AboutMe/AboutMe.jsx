@@ -10,10 +10,10 @@ const AboutMe = () => {
     ]
     return (
         <>
-            <section className={styles.aboutBg}>
+            {/* <section className={styles.aboutBg}>
                 <div className={`container-fluid ${styles.padding}`}>
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-xl-6 col-lg-12">
                             <h4 className={styles.aboutTitle}>BIT MORE ABOUT ME</h4>
                             <p className={styles.aboutContent}>Hello! i'm <strong>Aya Adel</strong>. junior Front-end developer with experience in building and maintaining responsive websites. Experienced with all stages of the development cycle for dynamic web projects. <br />Having an in-depth knowledge including advanced <strong>HTML5 - CSS - CSS3 - SASS - Bootstrap 5 - material UI -JavaScript - ES6 - jQuery - React Js - Redux and Redux toolkit</strong>.</p>
                             <div className={styles.social}>
@@ -29,7 +29,7 @@ const AboutMe = () => {
                             </div>
 
                         </div>
-                        <div className="col-lg-6 position-relative">
+                        <div className="col-xl-6 col-lg-12 position-relative">
                         <a href="https://drive.google.com/file/d/1r_25jJOa_CoxlnmF8KUlj_h2XYsPtNRr/view?usp=sharing" rel="noreferrer" target={'_blank'}className='text-decoration-none'>
                             <div className={`d-flex ${styles.download}`}>
                             <i class="fa-solid fa-arrow-down"></i>
@@ -39,7 +39,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 }

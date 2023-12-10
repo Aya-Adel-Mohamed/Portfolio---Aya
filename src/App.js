@@ -8,13 +8,15 @@ import MainLayout from "./Compontents/MainLayout/MainLayout.jsx";
 import AboutMe from './Compontents/AboutMe/AboutMe.jsx';
 import Skills from './Compontents/Skills/Skills.jsx';
 import Education from './Compontents/Education/Education.jsx';
+import PortfolioList from './Compontents/PortfolioList/PortfolioList.jsx';
 
 let routers = createHashRouter([
   {path:'/' , element: <MainLayout/> , children:[
     {index:true , element: <Home/>},
     {path:'portfolio' , element: <Portfolio/>},
-    // {path:'about',element:<AboutMe/>},
+    {path:'about',element:<AboutMe/>},
     {path:'skills',element:<Skills/>},
+    {path:'portfolioList',element:<PortfolioList/>},
     {path:'education',element:<Education/>},
     {path:'contact' , element: <Contact/>},
     {path:'*' , element: <NotFound/>},

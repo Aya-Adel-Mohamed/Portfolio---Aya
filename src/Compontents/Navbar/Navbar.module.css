@@ -59,9 +59,11 @@
 
   }
 
-  @media screen and (max-width:992px) {
+  @media screen and (max-width:1220px) {
     .button{
       display: none;
+      cursor: default;
+      pointer-events: none;
     }
     .sidebar{
       background-color: transparent;
@@ -75,8 +77,8 @@
   }
   @media screen and (min-width:993px) and (max-width:1200px) {
     .sidebar{
-      bottom: 12%;
-      right: 6%;
+      bottom: 0%;
+      right: 50%;
     }
 
   }

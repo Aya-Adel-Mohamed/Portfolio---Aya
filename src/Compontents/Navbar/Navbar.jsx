@@ -28,7 +28,7 @@ const navbar = [
             </button>
         ).slice(0,3)}
         <button className={`${styles.fingerprint} rounded-circle`}>
-            <Link to='list'><i  className={`text-white fa-solid fa-fingerprint ${styles.icon} fa-beat-fade`}></i></Link>
+            <Link to='portfolioList'><i  className={`text-white fa-solid fa-fingerprint ${styles.icon} fa-beat-fade`}></i></Link>
         </button>
         {navbar?.map((nav,index)=>
                 <button className={`btn ${styles.button}`} key={index} >
