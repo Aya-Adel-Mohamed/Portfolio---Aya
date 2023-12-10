@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {createHashRouter, RouterProvider} from "react-router-dom";
+import Home from "./Compontents/Home/Home.jsx";
+import Portfolio from './Compontents/Portfolio/Portfolio.jsx';
+import Contact from './Compontents/Contact/Contact.jsx';
+import NotFound from './Compontents/NotFound/NotFound.jsx';
+import MainLayout from "./Compontents/MainLayout/MainLayout.jsx";
+import AboutMe from './Compontents/AboutMe/AboutMe.jsx';
+import Skills from './Compontents/Skills/Skills.jsx';
+import Education from './Compontents/Education/Education.jsx';
 
-function App() {
+let routers = createHashRouter([
+  {path:'/' , element: <MainLayout/> , children:[
+    {index:true , element: <Home/>},
+    {path:'portfolio' , element: <Portfolio/>},
+    // {path:'about',element:<AboutMe/>},
+    {path:'skills',element:<Skills/>},
+    {path:'education',element:<Education/>},
+    {path:'contact' , element: <Contact/>},
+    {path:'*' , element: <NotFound/>},
+  ]}
+])
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <RouterProvider router={routers}/>
+    </>
   );
 }
-
-export default App;
