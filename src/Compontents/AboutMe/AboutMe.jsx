@@ -10,7 +10,7 @@ const AboutMe = () => {
     ]
     return (
         <>
-            {/* <section className={styles.aboutBg}>
+            <section className={styles.aboutBg}>
                 <div className={`container-fluid ${styles.padding}`}>
                     <div className="row">
                         <div className="col-xl-6 col-lg-12">
@@ -39,7 +39,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
         </>
     );
 }

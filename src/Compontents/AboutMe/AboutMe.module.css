@@ -57,7 +57,7 @@
     animation-duration: 1.5s;
 
 }
-@keyframes downloadAnimate {
+/* @keyframes downloadAnimate {
     0%{
         color: rgba(255,255,255,1);
     }
@@ -67,7 +67,7 @@
     100%{
         color: rgba(255,255,255,1);
     }
-}
+} */
 @media screen and (min-width:1400px) and (max-width:1800px) {
     .download{
         left: 294px ;

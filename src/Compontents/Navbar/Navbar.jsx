@@ -26,17 +26,11 @@ const navbar = [
                 <span className=' py-1 px-3 mb-1 text-white position-absolute translate-middle rounded-2 '>{nav.text}</span>
                 </Link>
             </button>
-        ).slice(0,3)}
-        <button className={`${styles.fingerprint} rounded-circle`}>
+        )}
+        {/* <button className={`${styles.fingerprint} rounded-circle`}>
             <Link to='portfolioList'><i  className={`text-white fa-solid fa-fingerprint ${styles.icon} fa-beat-fade`}></i></Link>
-        </button>
-        {navbar?.map((nav,index)=>
-                <button className={`btn ${styles.button}`} key={index} >
-                <Link to={nav.link} className='position-relative'><img src= { nav.image } alt="" />
-                <span className=' py-1 px-3 mb-1 text-white position-absolute translate-middle rounded-2'>{nav.text}</span>
-                </Link>
-            </button>
-        ).slice(3,6)}
+        </button> */}
+
     </div>
     </>
    

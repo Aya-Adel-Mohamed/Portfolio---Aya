@@ -11,7 +11,6 @@ export default function MainLayout() {
       <Navbar />
       <Outlet></Outlet>
 
-
     </>
   )
 }
