@@ -54,7 +54,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <AboutMe/>
+            {/* <AboutMe/> */}
         </>
     );
 }
