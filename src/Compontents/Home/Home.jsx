@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import styles from './Home.module.css';
 import Typed from 'typed.js';
-import AboutMe from '../AboutMe/AboutMe.jsx'
+// import AboutMe from '../AboutMe/AboutMe'
 
 const Home = () => {
     const el = useRef(null);
@@ -54,7 +54,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            {/* <AboutMe/> */}
+
         </>
     );
 }
