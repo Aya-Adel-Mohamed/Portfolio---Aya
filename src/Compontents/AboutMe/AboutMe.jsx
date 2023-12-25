@@ -40,7 +40,7 @@ const AboutMe = () => {
                                 <div className={styles.circleThree}>
          <a href="https://drive.google.com/file/d/1r_25jJOa_CoxlnmF8KUlj_h2XYsPtNRr/view?usp=sharing" rel="noreferrer" target={'_blank'}className='text-decoration-none'>
                             <div className={`d-flex ${styles.download}`}>
-                            <i class="fa-solid fa-arrow-down"></i>
+                            <i className="fa-solid fa-arrow-down"></i>
                             <p>Download CV</p>
                             </div>
                             </a>

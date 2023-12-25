@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import styles from './Home.module.css';
 import Typed from 'typed.js';
+import AboutMe from "../AboutMe/AboutMe";
+import Education from "../Education/Education";
 // import AboutMe from '../AboutMe/AboutMe'
 
 const Home = () => {
@@ -11,7 +13,6 @@ const Home = () => {
         { href: 'https://www.linkedin.com/in/aya-adel-11476623b', icon: 'fab fa-linkedin' },
         { href: 'https://www.facebook.com/aya.adel.18062', icon: 'fab fa-facebook' }
     ]
-    console.log(socialIcons);
     useEffect(() => {
 
         const typed = new Typed(el.current, {
@@ -42,19 +43,20 @@ const Home = () => {
                         <span ref={el}>F</span>
                     </div>
                     <div className={`social-icons d-flex justify-content-center ${styles.icons}`}>
-                        {socialIcons?.map((icon) =>
-                            <>
-                                <div  className={`${styles.portfolioicons} d-flex align-items-center justify-content-center`} >
+                        {socialIcons?.map((ele,index)=>
+                          
+                                <div key={index} className={`${styles.portfolioicons} d-flex align-items-center justify-content-center`} >
                                     <button className={`${styles.btn} btn`}>
-                                        <a href={icon.href} className='text-white' target={'_blank'} rel="noreferrer"><i className={icon.icon}></i></a>
+                                        <a href={ele.href} className='text-white' target={'_blank'} rel="noreferrer"><i className={ele.icon}></i></a>
                                     </button>
                                 </div>
-                            </>
+                         
                         )}
                     </div>
                 </div>
             </section>
-
+<AboutMe/>
+<Education/>
         </>
     );
 }

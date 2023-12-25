@@ -5,7 +5,7 @@ const Loading = () => {
     return (
         <>
 <section className={styles.loadingBg}>
-<div class={styles.loader}>
+<div className={styles.loader}>
                 <span></span>
                 <span></span>
                 <span></span>

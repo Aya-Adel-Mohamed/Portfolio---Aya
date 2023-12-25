@@ -12,3 +12,6 @@
 .navbar-nav .nav-link {
   color: #f5f5f5;
 }
+.accordion-button::after{
+  background-image: url('./assets/chevron-up.svg')!important;
+}

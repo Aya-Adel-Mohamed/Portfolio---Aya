@@ -14,7 +14,7 @@ let routers = createHashRouter([
   {path:'/' , element: <MainLayout/> , children:[
     {index:true , element: <Home/>},
     {path:'portfolio' , element: <Portfolio/>},
-    // {path:'about',element:<AboutMe/>},
+    {path:'about',element:<AboutMe/>},
     {path:'skills',element:<Skills/>},
     // {path:'portfolioList',element:<PortfolioList/>},
     {path:'education',element:<Education/>},
