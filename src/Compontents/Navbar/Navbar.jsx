@@ -27,9 +27,7 @@ const navbar = [
                 </Link>
             </button>
         )}
-        {/* <button className={`${styles.fingerprint} rounded-circle`}>
-            <Link to='portfolioList'><i  className={`text-white fa-solid fa-fingerprint ${styles.icon} fa-beat-fade`}></i></Link>
-        </button> */}
+
 
     </div>
     </>

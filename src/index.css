@@ -15,3 +15,7 @@
 .accordion-button::after{
   background-image: url('./assets/chevron-up.svg')!important;
 }
+.accordion-header{
+  font-family: 'Julee', cursive !important;
+
+}

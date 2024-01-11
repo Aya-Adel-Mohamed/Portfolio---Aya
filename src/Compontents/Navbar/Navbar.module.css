@@ -22,9 +22,9 @@
     border-radius: 50%;
 
   }
+
   .button,.fingerprint{
     background-image: linear-gradient(45deg,#000,80%,#444);
-    /* background-color: rgba(0,0,0,1); */
     border: none;
     margin-left: 7px;
     padding: 5px 0;
@@ -58,7 +58,22 @@
    font-family: 'Julee', cursive !important;
 
   }
-
+  .button{
+    animation-name: animateNavBtn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+@keyframes animateNavBtn {
+  0%{
+    box-shadow:none;
+  }
+  50%{
+    box-shadow: 1px 1px 15px -1px rgb(69, 69, 69) inset;
+  }
+  100%{
+    box-shadow: none;
+  }
+}
   @media screen and (max-width:700px) {
 
     .button,.fingerprint{
@@ -72,12 +87,18 @@
       bottom: 0%;
       right: 50%;
     }
+    .button span{
+      left: 44%;
+      bottom: 79%;
+      top:unset;
+      right: unset;
+      font-size: 15px;
+  }
     .icon{
       padding: 15px 20px;
     }
     .button img{
       width: 55%;
-  
     }
   }
   @media screen and (min-width:701px) and (max-width:1220px) {
@@ -93,6 +114,13 @@
       bottom: 0%;
       right: 50%;
     }
+    .button span{
+      left: 44%;
+      bottom: 95%;
+      top:unset;
+      right: unset;
+      font-size: 20px;
+  }
     .icon{
       padding: 15px 20px;
     }

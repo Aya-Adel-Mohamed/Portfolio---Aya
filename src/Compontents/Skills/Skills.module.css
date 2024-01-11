@@ -1,0 +1,31 @@
+.skillsTitle {
+    font-family: 'Julee', cursive !important;
+    color: #F05454;
+    font-size: 40px;
+    padding-block: 20px;
+}
+
+.centerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.skills{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Julee', cursive !important;
+font-weight: 600;
+font-size: 20px;
+}
+.professional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

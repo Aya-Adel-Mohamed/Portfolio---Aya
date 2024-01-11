@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost&family=Julee&family=Libre+Baskerville&family=PT+Serif:wght@700&display=swap');
+
+.portfolioTitle{
+    font-family: 'Julee', cursive !important;
+    color: #F05454;
+    font-size: 40px;
+    /* padding-block:30px; */
+
+}
+.padding{
+    padding-left: 100px;
+}
+.navLink{
+    background: #444!important;
+    font-family: 'Julee'!important;
+    font-size: 25px!important;
+    color: white!important;
+    margin-left: 18px;
+    padding-inline: 34px;
+    padding-block: 5px;
+    margin-bottom: 18px;
+}
+.portfolio{
+  padding-top: 25px;
+}
+@media screen and (max-width:992px) {
+    .navLink{
+    padding-inline: 13px;
+    font-size: 22px!important;
+
+    }
+    .portfolio{
+        padding-block: 50px;
+    }
+    .portfolioTitle{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .portfolio{
+        padding-block: 80px;
+    }
+}

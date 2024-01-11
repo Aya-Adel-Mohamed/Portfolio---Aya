@@ -12,15 +12,12 @@ color: #F05454;
     background-position: bottom center;
     background-size: cover;
     height:100vh;
-}
-.paddingLeft{
-    padding-left: 100px;
+    overflow: hidden;
 }
 .accordionButton{
 color: #fff !important;
 background-color: #444!important;
 }
-
 .bgItem{
     background-color: #D9D9D9;
 
@@ -37,13 +34,11 @@ background-color: #444!important;
 }
 .accordionBody{
     font-family: 'Inter', cursive !important;
-    font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
 }
 .accordionBody strong{
     color:#F05454;
 }
-
 @keyframes animated {
     0%{transform: translateX(-80px);opacity: 0;}
     100%{transform: translateX(0px);opacity: 0.9;}

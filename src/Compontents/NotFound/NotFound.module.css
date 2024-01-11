@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost&family=Julee&family=Libre+Baskerville&family=PT+Serif:wght@700&display=swap');
+
+.notfound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.content h1{
+    font-family: 'Julee', cursive !important;
+    color: #F05454;
+    font-size:90px;
+
+}
+.content h3{
+    font-family: 'Julee', cursive !important;
+font-size: 40px;
+}
+.content p{
+    font-family: 'Inter', cursive !important;
+font-size: 18px;
+}
+.content a{
+    text-decoration: none;
+    font-family: 'Julee', cursive !important;
+    color: #F05454;
+    font-size: 25px;
+}
+@media screen and (max-width:700px) {
+    .notfound{
+
+        height: 100%;
+    }
+}

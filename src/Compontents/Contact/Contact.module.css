@@ -1,0 +1,72 @@
+.bgFooter{
+    background-image: url('../../assets/backgroundFooter.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.contactTitle{
+    font-family: 'Julee', cursive !important;
+    color: #F05454;
+    padding-top: 60px;
+    font-size: 40px;
+}
+.contact{
+    font-family: 'Julee', cursive !important;
+    font-size: 27px;
+    font-weight: bold;
+}
+.paddingTop{
+    padding-top: 20px;
+}
+.icons{
+    font-size: 31px;
+    gap: 5px;
+    margin-top: 10px;
+    width: fit-content;
+}
+.portfolioicons{
+    width:45px;
+    height:45px;
+    border:2.5px solid #000;
+    background-color: #f5f5f5;
+
+    margin: 5px;
+    border-radius: 50%;
+ }
+ .portfolioicons i{
+    font-size: 25px;
+    /* position: relative;
+    top: 3px; */
+    color: #000;
+ }
+
+ .portfolioicons:hover{
+     background-color: #000;
+     border-color:#fff;
+ }
+ button:active{
+border: none;
+ }
+ .contactIcons{
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Julee', cursive !important;
+    font-size: 22px;
+
+ }
+ .contactIcons a{
+    text-decoration: none;
+    color: #000!important;
+ }
+ .portfolioicons:hover i{
+     color: #fff;
+ }
+@media screen and (max-width:992px) {
+
+    .contactTitle{
+        margin-bottom: 20px;
+    }
+}

@@ -3,7 +3,7 @@ import styles from './Home.module.css';
 import Typed from 'typed.js';
 import AboutMe from "../AboutMe/AboutMe";
 import Education from "../Education/Education";
-// import AboutMe from '../AboutMe/AboutMe'
+import Portfolio from "../Portfolio/Portfolio";
 
 const Home = () => {
     const el = useRef(null);
@@ -43,20 +43,21 @@ const Home = () => {
                         <span ref={el}>F</span>
                     </div>
                     <div className={`social-icons d-flex justify-content-center ${styles.icons}`}>
-                        {socialIcons?.map((ele,index)=>
-                          
-                                <div key={index} className={`${styles.portfolioicons} d-flex align-items-center justify-content-center`} >
-                                    <button className={`${styles.btn} btn`}>
-                                        <a href={ele.href} className='text-white' target={'_blank'} rel="noreferrer"><i className={ele.icon}></i></a>
-                                    </button>
-                                </div>
-                         
+                        {socialIcons?.map((ele, index) =>
+
+                            <div key={index} className={`${styles.portfolioicons} d-flex align-items-center justify-content-center`} >
+                                <button className={`${styles.btn} btn`}>
+                                    <a href={ele.href} className='text-white' target={'_blank'} rel="noreferrer"><i className={ele.icon}></i></a>
+                                </button>
+                            </div>
+
                         )}
                     </div>
                 </div>
             </section>
-<AboutMe/>
-<Education/>
+            <AboutMe />
+            <Education />
+            <Portfolio/>
         </>
     );
 }
