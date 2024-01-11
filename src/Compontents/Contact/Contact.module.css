@@ -36,8 +36,6 @@
  }
  .portfolioicons i{
     font-size: 25px;
-    /* position: relative;
-    top: 3px; */
     color: #000;
  }
 
@@ -51,7 +49,6 @@ border: none;
  .contactIcons{
     display: flex;
     gap: 10px;
-    /* justify-content: center; */
     align-items: center;
     font-family: 'Julee', cursive !important;
     font-size: 22px;

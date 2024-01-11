@@ -8,7 +8,6 @@
     position: relative;
     z-index: 99999999;
 }
-
 .loader {
     width: 16em;
     height: 8em;
@@ -26,7 +25,6 @@
 .loader::before {
     width: inherit;
     height: 0.2em;
-    /* background-color: white; */
     background-image: linear-gradient(45deg,#F05454,white);
 }
 

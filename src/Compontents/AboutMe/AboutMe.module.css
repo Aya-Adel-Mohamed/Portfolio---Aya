@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost&family=Julee&family=Libre+Baskerville&family=PT+Serif:wght@700&display=swap');
 
 .aboutBg{
-
     background-color: white;
-    /* padding-block: 25px; */
-
 } 
 .aboutTitle{
     font-family: 'Julee', cursive !important;
@@ -42,13 +39,9 @@
     font-size: 57px;
     font-family: julee;
     color: white;
-    /* position: absolute;
-    left: 341px;
-    top: 193px; */
     animation-name: downloadAnimate;
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
-
 }
 .circle{
     top: -68px;

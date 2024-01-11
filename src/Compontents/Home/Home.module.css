@@ -6,68 +6,58 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-
     height: 100vh;
     z-index: 1;
     display: flex;
     justify-content: center;
-align-items: center;}
+    align-items: center;
+}
 .homeContent {
     font-family: 'Julee', cursive !important;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* position: absolute;
-    top: 40%;
-    left: 3%; */
 }
 .homeContent h1{
     color: #F05454;
     width: fit-content;
     position: relative;
-    /* left: 174px; */
     font-size: 60px;
-
 }
  .homeContent span{
     color: #F5F5F5;
     font-family: 'Julee', cursive !important;
-    /* left: 45px; */
     font-size: 50px;
 }
 .icons{
     font-size: 31px;
     gap: 11px;
     width: fit-content;
-    /* position: relative;
-    left: 145px; */
 }
 .portfolioicons{
     width:45px;
     height:45px;
     border:2.5px solid #F5F5F5;
     background-color: #444;
-
     margin: 5px;
     border-radius: 50%;
- }
- .portfolioicons i{
+}
+.portfolioicons i{
     font-size: 19px;
     position: relative;
     top: 3px;
- }
-
- .portfolioicons:hover{
-     background-color: #ebe5e5ab;
-     border-color:#ffffff;
- }
- .portfolioicons:hover i{
-     color: black;
- }
- .btn:focus{
-border: none!important;
- }
+}
+.portfolioicons:hover{
+    background-color: #ebe5e5ab;
+    border-color:#ffffff;
+}
+.portfolioicons:hover i{
+    color: black;
+}
+.btn:focus{
+    border: none!important;
+}
 @media  screen and (max-width:400px) {
     .homeContent span{
         font-size: 22px;
@@ -106,4 +96,5 @@ border: none!important;
     .homeContent span{
         font-size: 43px;
     }
+
 }
