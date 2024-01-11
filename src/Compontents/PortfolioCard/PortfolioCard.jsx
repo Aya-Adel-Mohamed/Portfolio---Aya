@@ -1,5 +1,4 @@
 import React from 'react'
-// import styles from './PortfolioCard.module.css'
 import movie from '../../assets/imgs/movie.png';
 import meals from '../../assets/imgs/meals.png';
 import bakery from '../../assets/imgs/bakery.png';

@@ -4,6 +4,7 @@ import Typed from 'typed.js';
 import AboutMe from "../AboutMe/AboutMe";
 import Education from "../Education/Education";
 import Portfolio from "../Portfolio/Portfolio";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
     const el = useRef(null);
@@ -58,6 +59,7 @@ const Home = () => {
             <AboutMe />
             <Education />
             <Portfolio/>
+            <Contact/>
         </>
     );
 }
